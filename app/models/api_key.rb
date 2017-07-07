@@ -1,0 +1,11 @@
+class ApiKey < ActiveRecord::Base
+  belongs_to :user
+
+  validates :access_token,
+           presence: true,
+           uniqueness: true
+  validates :user_id,
+           presence: true,
+           numericality: { only_integer: true }
+
+end

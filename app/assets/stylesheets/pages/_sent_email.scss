@@ -1,0 +1,33 @@
+.sent_email {
+	h1 {
+		color: #dcd9d9;
+		margin: 0;
+	}
+	p {
+		color: #dcd9d9;
+		margin-bottom: 0.8em;
+	}
+	hr {
+		border-color: #8e8c8c;
+	}
+	.mail-icon {
+    width: 90px;
+    height: 90px;
+    margin: 40px auto;
+    border-radius: 100%;
+    background-color: #dcd9d9;
+    border: 2px solid white;
+
+    i {
+    	font-size: 3.5em;
+	    color: #767676;
+	    padding-top: 15px;
+    }
+	}
+	.btn {
+		color: white;
+		&:hover {
+			color: #008446;
+		}
+	}
+}

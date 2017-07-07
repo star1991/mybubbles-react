@@ -1,0 +1,114 @@
+
+.welcome-msg {
+	font-family: 'Alex Brush', cursive;
+	color: $light-gray;
+}
+.reg-pline {
+	font-weight: 100;
+	text-align: center;
+	font-size: 1.2em;
+	color: #bdccd4;
+}
+.signup {
+	color: white;
+}
+.pic-upload {
+	margin-top: 30px;
+}
+.txt-upload {
+	color: $light-gray;
+	font-size: 0.85em;
+}
+.form {
+
+}
+.acc-form {
+
+}
+.form-label {
+	color: white;
+	margin-bottom: 0.3em !important;
+}
+// .form-control {
+// 	background: white;
+// }
+.help-block {
+  text-align: right;
+  font-size: 0.9em;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.1em; 
+  text-decoration: underline;
+  color: $warn-red;
+  ul li {
+	  list-style-type: none;
+  }
+}
+.well {
+	background: none;
+	border: none;
+	box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.reg-form {
+	::-webkit-input-placeholder {
+	   color: $light-gray !important;
+	}
+	
+	:-moz-placeholder { /* Firefox 18- */
+	   color: $light-gray !important;  
+	}
+	
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: $light-gray !important;  
+	}
+	
+	:-ms-input-placeholder {  
+	   color: $light-gray !important;  
+	}
+}
+.alert-success {
+	background-color: rgba(255, 255, 255, 0);
+	color: white;
+	border: none;
+}
+.success {
+	border: none;
+}
+.close {
+	color: white;
+	:hover {
+		
+	}
+}
+.btn-register {
+	font-weight: 400;
+	font-size: 1.65em;
+	background: $brand-green;
+	border-color: #360606;
+	color: white;
+	width: 100%; 
+	height: 60px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+
+}
+.btn-register:hover {
+	border-color: white;
+}
+.btn-register:active, .btn-primary:visited, .btn-primary:focus {
+	background: #5c0000;
+	border-color: white;
+	box-shadow: 0 0 5px $brand-dark;
+	padding: 3px 0px 3px 3px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid $brand-dark;
+}
+.ilcheckox {
+	display: inline;
+	color: white !important;
+	font-size: 0.85em;
+}

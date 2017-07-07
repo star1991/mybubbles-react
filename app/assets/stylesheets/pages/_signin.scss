@@ -1,0 +1,96 @@
+// LOGIN DROPDOWN
+.login-form{
+	text-align: center;
+}
+.login-via{
+	color: $dark-gray;
+}
+#login-dp{
+	left: -170px;
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color: $light-gray;
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+.bottom a {
+	color: $brand-green;
+	:hover{
+		color: $brand-green;
+	}
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+
+// Sign in Page
+.onesdelay {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0.8s;
+}
+.login-page-form {
+    padding-top: 100px;
+}
+.ilcheckox {
+    display: inline;
+    color: white !important;
+    font-size: 0.85em;
+}
+.login-page-form {
+    ::-webkit-input-placeholder {
+       color: $light-gray !important;
+    }
+    
+    :-moz-placeholder { /* Firefox 18- */
+       color: $light-gray !important;  
+    }
+    
+    ::-moz-placeholder {  /* Firefox 19+ */
+       color: $light-gray !important;  
+    }
+    
+    :-ms-input-placeholder {  
+       color: $light-gray !important;  
+    }
+}

@@ -1,0 +1,171 @@
+// .page {
+//   &.home {
+//     .row {
+//       // background: url(/assets/home_background.jpg) no-repeat center center;
+//       // height: 698px;
+//     }
+//     // font-family: 'SEGOE-UI';
+//     font-weight: lighter;
+//     color: #fff;
+
+//     .content {
+//       // text-align: center;
+//       padding: 43px 0 30px 0;
+//       h2 {
+//         // font-family: 'SEGOE-UI';
+//         font-size: 32px;
+//         font-weight: lighter;
+//         margin: 0;
+//       }
+//       h4 {
+//         // font-family: 'SEGOE-UI';
+//         font-size: 22px;
+//         font-weight: lighter;
+//         margin: 10px 0 13px 0;
+//       }
+//       p {
+//         margin: 10px 0 17px 0;
+//         font-size: 16px;
+//       }
+//       .email {
+//         color: #000;
+//         font-size: 18px;
+//         padding: 6px 12px;
+//         margin-right: 12px;
+//         margin-top: 5px;
+//         -webkit-box-shadow: inset -27px -30px 76px -14px rgba(130,130,130,0.52);
+//         -moz-box-shadow: inset -27px -30px 76px -14px rgba(130,130,130,0.52);
+//         box-shadow: inset -27px -30px 76px -14px rgba(130,130,130,0.52);
+//       }
+//       .people {
+//         padding: 5px 0 10px 0;
+//         img {
+//           height: 100%;
+//           width: auto;
+//           display: block;
+//           margin: 0 auto;
+//         }
+//       }
+//     }
+//   }
+// }
+
+html.one-scroll-page {
+  .wrapper {
+    height: 100% !important;
+    margin: 0 auto;
+    overflow: hidden;
+
+    .main {
+      float: left;
+      // width: 100%;
+      margin: 0 auto;
+
+
+      section {
+        // overflow: hidden;
+        // background: url(/assets/home_background.jpg) no-repeat center center;
+      }
+    }
+    @media (min-width: 767px) {
+      // padding-top: 100px;
+    }
+    @media (min-width: 991px) {
+      // padding-top: 100px;
+    }
+  }
+}
+
+
+
+.home {
+  //content_home
+  //text styles
+  .punchline, .itm-title {
+    line-height: 1.35em;
+    text-align: right;
+  }
+  .itm-title {
+    color: $darker-gray;
+    text-align: right;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+  }
+  .hp-itm {
+    position: relative;
+    text-align: right;
+  }
+  .hp-item-desc {
+    font-size: 1.15em;
+    color: white;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0.8s;
+  }
+  .squared-title {
+    padding: 5px;
+    background-color: white;
+    color: $mint;
+  }
+  //left side bulltes/ images
+  .imac {
+    position: absolute;
+    box-shadow: 0px 5px 5px 0px black;
+    
+    @media (max-width: 767px) {
+      
+    }
+    /* Extra small devices (phones, less than 768px) */
+    /* No media query since this is the default in Bootstrap */
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: 767px) {
+      width: 50%;
+    }
+    @media (min-width: 991px) {
+    
+    }
+    @media (min-width: 1199px) {
+      width: 90%;
+      top: 50px;
+    }
+    
+  }
+  .sec-features {
+
+  }
+  .sec-bullet {
+    position: relative;
+    top: 100px;
+    left: 130px;
+    list-style: none;
+    color: white;
+    li {
+      margin: 10px;
+    }
+  }
+  .sec-bullet-li  {
+    font-size: 1.5em;
+    line-height: 2em;
+    color: $dark-gray;
+    padding-left: 20px;
+  }
+
+  // slide2 bubbles
+  .circle-stroke10 {
+    border: solid 10px white;
+    position: relative;
+  }.circle-stroke7 {
+    border: solid 7px white;
+    position: relative;
+  }
+  .circle-stroke4 {
+    border: solid 4px white;
+    position: relative;
+  }.circle-stroke1 {
+    border: solid 1px white;
+    position: relative;
+  }
+  a {
+    color: white;
+  }
+}
+

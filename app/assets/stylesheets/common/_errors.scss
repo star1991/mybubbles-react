@@ -1,0 +1,8 @@
+form p.validation-error {
+	color: #e91f1f;
+	margin-bottom: 5px;
+	&.avatar-error {
+		text-align: center;
+		margin-top: 5px;
+	}
+}

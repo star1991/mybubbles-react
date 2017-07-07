@@ -1,0 +1,223 @@
+#register, #reset-password-edit, #edit-user, #signin {
+  > div {
+    max-width: 500px;
+    margin: 0 auto !important;
+    form {
+      padding: 30px 50px 20px;
+
+      .terms-of-service {
+        box-shadow: none;
+      }
+    }
+
+    @media screen and (max-width: 1200px) {
+      form {
+        padding: 30px 50px 20px;
+      }
+    }
+  }
+}
+
+#register {
+  form {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(39,41,43,.15),0 1px 2px 0 rgba(0,0,0,.05);
+    // margin: 1rem 0;
+    margin: 0;
+    padding: 1em;
+    border-radius: .2857rem;
+    border: none;
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .selectize-input {
+      min-height: 0;
+      display: block;
+      width: 100%;
+      height: 40px;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #555555;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+      transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    }
+  }
+}
+
+.signin-form, .reset-password-form, .reset-confirmation-form {
+  .ui.column.grid .column {
+    // padding: 0;
+    // margin: 0;
+    .selectize-dropdown {
+      padding-right: 0;
+    }
+  }
+  fieldset {
+    padding-left: 0;
+    margin-left: 0;
+    li {
+      float: left;
+    }
+  }
+  select {
+    -webkit-appearance: none;
+  }
+  .ui.row.field {
+    padding: 1rem;
+  }
+  .ui.column.grid input.column,
+  .ui.column.grid select.column {
+    margin-top: 10px;
+    border-radius: 0;
+    line-height: 3;
+    padding: 0 1em;
+  }
+
+
+}
+
+.ui {
+  &.grid {
+    .sign-in, .reset-password {
+      // padding: 80px 20px;
+      max-width: 500px;
+      margin: 0 auto!important;
+      
+    }
+  }
+}
+
+.users-confirmation {
+  .confirmation {
+    // padding-top: 200px;
+    font-size: 15px;
+    // font-family: "proxima-bold";
+    text-align: center;
+    color: #4d4e50;
+    .title {
+      // font-family: "proxima-bold";
+      font-size: 24px;
+      font-weight: bold;
+      color: #41a5d1;
+    }
+  }
+}
+
+#error_explanation {
+  // position: absolute;
+  // top: 10px;
+  // z-index: 100;
+  // border-radius: 5px;
+  // overflow: hidden;
+  // right: 10px;
+  margin-top: 10px;
+}
+
+.wrapper {
+  &.register-wrapper {
+    margin: 112px 0 40px 0;
+  }
+}
+
+
+
+.page {
+  &.register {
+    background: url(/assets/signup-background.jpg) no-repeat center center;
+    // font-family: 'SEGOE-UI';
+    font-weight: lighter;
+    color: #fff;
+
+    .content {
+      text-align: center;
+      padding: 80px 0 17px 0;
+      h2 {
+        // font-family: 'SEGOE-UI';
+        font-size: 32px;
+        font-weight: lighter;
+        margin: 0;
+      }
+      h4 {
+        // font-family: 'SEGOE-UI';
+        font-size: 22px;
+        font-weight: lighter;
+        margin: 22px 0 22px 0;
+      }
+      .signup-content {
+        padding: 40px 0 0;
+        .has-error {
+          .control-label, .help-block {
+            color: red;
+          }
+          
+        }
+        .match-password {
+          border: 3px solid green;
+        }
+        .form-group {
+          text-align: left;
+          margin-bottom: 40px;
+          .form-control {
+            height: 46px;
+          }
+        }
+        label {
+          font-size: 14px;
+          // font-family: 'MYRIADPRO-REGULAR';
+          font-weight: normal;
+        }
+        .avatar-container {
+          padding-top: 5px;
+          .drag-and-drop-zone {
+            border: 2px dashed #948793;
+            border-radius: 5px;
+            text-align: center;
+            padding-bottom: 20px;
+            > p {
+              font-size: 1.5em;
+            }
+            > div {
+              margin: 0 auto;
+              width: 70%;
+              cursor: pointer;
+              p {
+                padding: 0.5em;
+                background-color: #66c17b;
+                color: white;
+              }
+            }
+          }
+          .avatar-image {
+            width: 100px;
+            margin: 20px auto 40px;
+          }
+        }
+        .selectize-input {
+          margin-top: 0;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+        #accept-terms-of-service {
+          margin-top: 5px;
+          margin-right: 7px;
+        }
+        .terms-text {
+          vertical-align: top;
+          display: inline-block;
+        }
+      }
+    }
+    
+  }
+}
+
+.password-new-container, .signin-container {
+  background: url(/assets/register_background.jpg) no-repeat center center;
+}

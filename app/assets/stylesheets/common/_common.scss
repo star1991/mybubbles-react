@@ -1,0 +1,241 @@
+// .medium-box {
+//   max-width: 620px;
+// }
+
+// .pika-label {
+//   border: 1px dotted #ccc;
+// }
+
+// .chat-widget {
+//   position: fixed;
+//   width: 160px;
+//   height: 130px;
+//   z-index: 500;
+//   background-color: #20073b;
+//   top: 40%;
+//   right: -100px;
+//   opacity: 0.8;
+//   border-radius: 100px;
+
+//   i {
+//     display: block;
+//     font-size: 1.5em;
+//     margin-top: 25px;
+//     &:nth-child(1) {
+//       color: red;
+//       margin-top: 0;
+//       margin-left: -9px;
+//     }
+//     &:nth-child(2) {
+//       color: blue;
+//       margin-left: -32px;
+//     }
+//     &:nth-child(3) {
+//       color: green;
+//       margin-left: -27px;
+//     }
+//     &:nth-child(4) {
+//       color: black;
+//     }
+//   }
+//   img {
+//     width: 30px;
+//     display: block;
+//     &:nth-child(1) {
+//       color: red;
+//       margin-top: -24px;
+//       margin-left: 9px;
+//     }
+//     &:nth-child(2) {
+//       color: blue;
+//       margin-top: 19px;
+//       margin-left: -32px;
+//     }
+//     &:nth-child(3) {
+//       color: green;
+//       margin-top: 25px;
+//       margin-left: -32px;
+//     }
+//     &:nth-child(4) {
+//       color: black;
+//       margin-top: 18px;
+//       margin-left: 9px;
+//     }
+//   }
+// }
+
+// .AFK-overlap {
+//   position: fixed;
+//   opacity: 0.4;
+//   width: 100%;
+//   height: 100%;
+//   left: 0;
+//   top: 0;
+//   background-color: #000;
+//   display: none;
+// }
+
+// .ui.page.grid {
+//   font-size: 14px;
+// }
+
+// label.required-class:after  {
+//   content:" *";
+// }
+
+body {
+  .sharing {
+    padding: 17px 0 15px 0;
+    background-color: #20073b;
+    h1 {
+      font-size: 18px;
+      // font-family: 'SEGOE-UI';
+      font-weight: normal;
+    }
+  }
+}
+
+.round {
+  border-radius: 100%;
+}
+
+// body {
+//   font-family: 'Open Sans', sans-serif;
+// }
+
+//TYPOGRAPHY
+body {
+  font-family: $body-font-family;
+}
+h1,h2 {
+  font-family: $headings-font-family;
+  color: white;
+  
+}
+
+//GENERAL
+body {
+  background: url(/assets/background.jpg) no-repeat center center; 
+  // background: url(/assets/background.jpg),url(/assets/bubble-1.png),url(/assets/bubble-2.png),url(/assets/bubble-3.png); 
+  // background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-weight: normal;
+}
+
+// #background-bubble {
+//   height:100%;
+//   position:relative;
+//   overflow:hidden;
+// }
+#background-bubble-1 {
+  position: fixed;
+  width: 150%;
+  // margin: -25%
+  margin-left: -40%;
+  margin-top: -1000px;
+  // opacity: 0.3;
+  display: none;
+}
+#background-bubble-2 {
+  position: fixed;
+  width: 150%;
+  margin: -25%;
+  display: none;
+}
+#background-bubble-3 {
+  position: fixed;
+  width: 150%;
+  margin: -25%;
+  display: none;
+}
+
+#background-bubble {
+  position: fixed;
+  width: 100%;
+  height: 700px;
+  bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.language-menu {
+  position: fixed;
+  right: -201px; 
+  top: 0;
+  width: 200px;
+  height: 100%;
+  text-align: center;
+  background: #fff;
+  color: #aaa;
+  font-size: 14px;
+  padding: 60px 0;
+  z-index: 2000;
+  // opacity: 0.8;
+  transition: all 0.3s 0s ease-out;
+  &.out {
+    right: 0;
+  }
+  .close {
+    font-size: 2em;
+    line-height: 1em;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    color: #aaa;
+    cursor: pointer;
+  }
+  .language {
+    margin: 10px auto;
+    display: inline-block;
+    cursor: pointer;
+  }
+}
+
+a {
+  color: $light-gray;
+  :hover {
+    color: $mid-gray;
+    text-decoration: none;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+  }
+}
+a:hover, a:focus {
+  color: $mid-gray;
+  text-decoration: none;
+}
+
+input[type=text], input[type=email], textarea, .form-control {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  background: rgba(255, 255, 255, 0.25);
+  padding: 3px 0px 3px 10px;
+  margin: 5px 1px 15px 0px;
+  border: 1px solid #DDDDDD;
+  height: 40px;
+  font-weight: 100;
+  color: white;
+}
+input[type=text]:focus, input[type=email]:focus, textarea:focus, .form-control:focus, .btn-primary:focus {
+  box-shadow: 0 0 5px white;
+  // padding: 3px 0px 3px 10px;
+  // margin: 5px 1px 3px 0px;
+  border: 1px solid white;
+}
+

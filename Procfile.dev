@@ -1,0 +1,2 @@
+web: bundle exec spring rails server -p 3000 -b 0.0.0.0
+webpack: webpack --port 3000 --watch --colors

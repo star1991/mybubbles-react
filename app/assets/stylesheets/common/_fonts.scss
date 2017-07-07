@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'MYRIADPRO-REGULAR';
+  src: font_url('MyriadPro-Regular/MyriadPro-Regular_gdi.eot');
+  src: font_url('MyriadPro-Regular/MyriadPro-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+       font_url('MyriadPro-Regular/MyriadPro-Regular_gdi.woff') format('woff'),
+       font_url('MyriadPro-Regular/MyriadPro-Regular_gdi.ttf') format('truetype'),
+       font_url('MyriadPro-Regular/MyriadPro-Regular_gdi.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SEGOE-UI';
+  src: font_url('Segoe-UI/UntitledTTF_gdi.eot');
+  src: font_url('Segoe-UI/UntitledTTF_gdi.eot?#iefix') format('embedded-opentype'),
+       font_url('Segoe-UI/UntitledTTF_gdi.woff') format('woff'),
+       font_url('Segoe-UI/UntitledTTF_gdi.ttf') format('truetype'),
+       font_url('Segoe-UI/UntitledTTF_gdi.svg#webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+// @import url(https://fonts.googleapis.com/css?family=Roboto:100,700,400|Raleway:700);
+    
+
+// @font-face {
+//   font-family: 'MYRIADPRO-REGULAR';
+//   src: font_url('MYRIADPRO-REGULAR.OTF') format('opentype');
+//   font-weight: normal;
+//   font-style: normal;
+// }.
